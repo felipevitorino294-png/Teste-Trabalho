@@ -85,5 +85,5 @@ def faturamento(produtos):
 # Execução principal
 controle_estoque(produtos)
 compra(produtos)
-
 faturamento(produtos)
+
