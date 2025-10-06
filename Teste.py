@@ -7,7 +7,7 @@ produtos = [
 ]
 #Dicionário com com os produts , quantidade e valores 
 def controle_estoque(produtos):
-    print("\n--- Controle de Estoque ---")
+    print("\n Controle de Estoque ")
     for i in range(len(produtos)):
         nome = produtos[i]['nome']
         qtd = produtos[i]['quantidade']
@@ -20,7 +20,7 @@ def controle_estoque(produtos):
 
 
 def compra(produtos):
-    print("\n--- Análise de Preços ---")
+    print("\n Análise de Preços ")
     produtos_mais_caro = produtos[0]
     for i in range(1, len(produtos)):
         if produtos[i]['valor'] > produtos_mais_caro['valor']:
@@ -39,7 +39,7 @@ def compra(produtos):
 
 
 def faturamento(produtos):
-    print("\n--- Simulação de Vendas e Faturamento ---")
+    print("\n Simulação de Vendas e Faturamento ")
     vendas = []
     total_faturado = 0
 
@@ -68,7 +68,7 @@ def faturamento(produtos):
             print("Produto não encontrado.")
 
     # Relatório final no console
-    print("\n--- RELATÓRIO FINAL ---")
+    print("\n Relatório Final")
     print("Lista de produtos e quantidades finais no estoque:")
     for i in produtos:
         print(f"{i['nome'] or 'Produto sem nome'} - {i['quantidade']} unidades (R${i['valor']:.2f})")
@@ -85,4 +85,5 @@ def faturamento(produtos):
 # Execução principal
 controle_estoque(produtos)
 compra(produtos)
+
 faturamento(produtos)
