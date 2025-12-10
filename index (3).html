@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONEKTEI | Conectando Você</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+    <header>
+    <div class="container header-container">
+        <a href="#" class="logo">
+    <img src="logo-conektei.png" alt="Ícone Conektei" class="logo-icon">
+    <span>CONEKTEI</span>
+</a>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#professions">Profissões</a></li>
+                <li><a href="#how-it-works">Como Funciona</a></li>
+                <li><a href="#experts">Especialistas</a></li>
+                <li><a href="#pricing">Planos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-buttons">
+            <a href="#contact" class="btn btn-outline">Entrar</a>
+            <a href="#contact" class="btn">Agendar Consulta</a>
+        </div>
+    </div>
+</header>
+
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Conecte-se com os melhores especialistas online</h1>
+                <p>CONEKTEI oferece consultoria profissional em diversas áreas com especialistas verificados. Soluções personalizadas para suas necessidades, tudo no conforto da sua casa.</p>
+                <div class="hero-buttons">
+                    <a href="#professions" class="btn">Encontrar Especialista</a>
+                    <a href="#how-it-works" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">Como Funciona</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Especialistas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Áreas de Atuação</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10k+</div>
+                        <div class="stat-label">Clientes Satisfeitos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Consultoria Online">
+            </div>
+        </div>
+    </section>
+
+    <section class="professions" id="professions">
+        <div class="container">
+            <div class="section-title">
+                <h2>Diversas Áreas de Especialização</h2>
+                <p>Conecte-se com profissionais qualificados em diferentes áreas para obter orientação especializada.</p>
+            </div>
+            
+            <div class="profession-categories">
+                <button class="category-btn active" data-category="all">Todas</button>
+                <button class="category-btn" data-category="business">Negócios</button>
+                <button class="category-btn" data-category="tech">Tecnologia</button>
+                <button class="category-btn" data-category="health">Saúde</button>
+                <button class="category-btn" data-category="legal">Jurídico</button>
+                <button class="category-btn" data-category="creative">Criativo</button>
+            </div>
+            
+            <div class="profession-grid">
+                </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>Como Funciona</h2>
+                <p>Três simples passos para conectar-se com o especialista ideal para suas necessidades.</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Escolha seu Especialista</h3>
+                    <p>Navegue por nosso diretório de profissionais e selecione aquele que melhor se adapta às suas necessidades.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Agende sua Consulta</h3>
+                    <p>Escolha uma data e horário convenientes para sua consulta online através de nossa plataforma.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Conecte-se Online</h3>
+                    <p>Participe da sessão de consultoria via videochamada e receba orientação especializada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experts" id="experts">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Especialistas em Destaque</h2>
+                <p>Conheça alguns dos profissionais altamente qualificados que fazem parte da nossa rede.</p>
+            </div>
+            
+            <div class="experts-grid">
+                </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Planos de Consultoria</h2>
+                <p>Escolha o plano que melhor atende às suas necessidades de consultoria profissional.</p>
+            </div>
+            
+            <div class="pricing-plans">
+                <div class="pricing-card">
+                    <h3>Consulta Única</h3>
+                    <div class="price">R$ 199<span>,90</span></div>
+                    <p class="pricing-period">por sessão</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 1 hora de consultoria</li>
+                        <li><i class="fas fa-check"></i> 1 especialista à sua escolha</li>
+                        <li><i class="fas fa-check"></i> Suporte por email por 7 dias</li>
+                        <li><i class="fas fa-check"></i> Material de apoio básico</li>
+                        <li><i class="fas fa-times"></i> Acompanhamento contínuo</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">Escolher Plano</a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Mais Popular</div>
+                    <h3>Pacote Anual</h3>
+                    <div class="price">R$ 149<span>,90</span></div>
+                    <p class="pricing-period">por mês</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 4 horas de consultoria</li>
+                        <li><i class="fas fa-check"></i> Até 3 especialistas diferentes</li>
+                        <li><i class="fas fa-check"></i> Suporte prioritário</li>
+                        <li><i class="fas fa-check"></i> Material de apoio completo</li>
+                        <li><i class="fas fa-check"></i> Acompanhamento por 30 dias</li>
+                    </ul>
+                    <a href="#contact" class="btn">Escolher Plano</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Pacote Empresarial</h3>
+                    <div class="price">R$ 1.499<span>,90</span></div>
+                    <p class="pricing-period">por mês</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 10 horas de consultoria</li>
+                        <li><i class="fas fa-check"></i> Até 5 especialistas diferentes</li>
+                        <li><i class="fas fa-check"></i> Suporte dedicado 24/7</li>
+                        <li><i class="fas fa-check"></i> Material personalizado</li>
+                        <li><i class="fas fa-check"></i> Relatórios mensais</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">Escolher Plano</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Agende sua consulta ou tire suas dúvidas sobre nossos serviços.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Pronto para transformar sua carreira ou negócio?</h3>
+                    <p>Nossa equipe está pronta para ajudá-lo a encontrar o especialista perfeito para suas necessidades. Preencha o formulário ou entre em contato diretamente.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Telefone</h4>
+                                <p>(11) 9999-9999</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>contato@conektei.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 20h<br>Sábado: 9h às 14h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="consultationForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="profession">Área de Interesse</label>
+                            <select id="profession" name="profession" required>
+                                <option value="">Selecione uma área</option>
+                                <option value="advogado">Consultoria Jurídica</option>
+                                <option value="contador">Consultoria Contábil</option>
+                                <option value="marketing">Marketing Digital</option>
+                                <option value="ti">Tecnologia da Informação</option>
+                                <option value="coach">Coaching Profissional</option>
+                                <option value="nutricionista">Nutrição e Saúde</option>
+                                <option value="psicologo">Psicologia</option>
+                                <option value="financeiro">Consultoria Financeira</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Descreva brevemente suas necessidades..."></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Agendar Consulta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-project-diagram"></i>
+                        CONEKTEI
+                    </div>
+                    <p>Conectamos profissionais especializados com pessoas e empresas que precisam de orientação especializada para alcançar seus objetivos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#professions">Profissões</a></li>
+                        <li><a href="#how-it-works">Como Funciona</a></li>
+                        <li><a href="#experts">Especialistas</a></li>
+                        <li><a href="#pricing">Planos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Consultoria Jurídica</a></li>
+                        <li><a href="#">Consultoria Financeira</a></li>
+                        <li><a href="#">Coaching Profissional</a></li>
+                        <li><a href="#">Marketing Digital</a></li>
+                        <li><a href="#">Saúde e Bem-estar</a></li>
+                        <li><a href="#">Tecnologia e TI</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Inscreva-se para receber dicas e ofertas exclusivas.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 CONEKTEI Consultores. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dados das profissões
+        const professions = [
+            {
+                id: 1,
+                category: "business",
+                icon: "fas fa-chart-line",
+                title: "Consultor Financeiro",
+                description: "Orientação para investimentos, planejamento financeiro pessoal e empresarial."
+            },
+            {
+                id: 2,
+                category: "business",
+                icon: "fas fa-briefcase",
+                title: "Coach de Carreira",
+                description: "Desenvolvimento profissional, transição de carreira e crescimento na empresa."
+            },
+            {
+                id: 3,
+                category: "tech",
+                icon: "fas fa-code",
+                title: "Desenvolvedor de Software",
+                description: "Consultoria em desenvolvimento de aplicações, arquitetura de sistemas e tecnologias."
+            },
+            {
+                id: 4,
+                category: "tech",
+                icon: "fas fa-shield-alt",
+                title: "Especialista em Cybersecurity",
+                description: "Proteção de dados, segurança da informação e prevenção contra ataques cibernéticos."
+            },
+            {
+                id: 5,
+                category: "health",
+                icon: "fas fa-heartbeat",
+                title: "Nutricionista",
+                description: "Planejamento alimentar personalizado para saúde, performance e condições específicas."
+            },
+            {
+                id: 6,
+                category: "health",
+                icon: "fas fa-brain",
+                title: "Psicólogo",
+                description: "Acompanhamento psicológico, desenvolvimento pessoal e saúde mental."
+            },
+            {
+                id: 7,
+                category: "legal",
+                icon: "fas fa-gavel",
+                title: "Advogado",
+                description: "Consultoria jurídica empresarial, contratos, direito trabalhista e civil."
+            },
+            {
+                id: 8,
+                category: "legal",
+                icon: "fas fa-file-contract",
+                title: "Contador",
+                description: "Consultoria tributária, contabilidade empresarial e planejamento financeiro."
+            },
+            {
+                id: 9,
+                category: "creative",
+                icon: "fas fa-paint-brush",
+                title: "Designer Gráfico",
+                description: "Criação de identidade visual, material gráfico e estratégias de branding."
+            },
+            {
+                id: 10,
+                category: "creative",
+                icon: "fas fa-bullhorn",
+                title: "Especialista em Marketing",
+                description: "Estratégias de marketing digital, posicionamento de marca e crescimento online."
+            },
+            {
+                id: 11,
+                category: "business",
+                icon: "fas fa-users",
+                title: "Consultor em RH",
+                description: "Recrutamento, desenvolvimento organizacional e gestão de talentos."
+            },
+            {
+                id: 12,
+                category: "tech",
+                icon: "fas fa-cloud",
+                title: "Arquiteto de Cloud",
+                description: "Migração para nuvem, otimização de infraestrutura e soluções em cloud computing."
+            }
+        ];
+
+        // Dados dos especialistas
+        const experts = [
+            {
+                id: 1,
+                name: "Dr. Carlos Silva",
+                specialty: "Advogado Corporativo",
+                rating: 4.9,
+                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                description: "15 anos de experiência em direito empresarial e contratos internacionais.",
+                tags: ["Direito Empresarial", "Contratos", "Compliance"]
+            },
+            {
+                id: 2,
+                name: "Dra. Mariana Costa",
+                specialty: "Psicóloga Clínica",
+                rating: 4.8,
+                image: "https://images.unsplash.com/photo-1594824434340-7e7dfc37cabb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                description: "Especialista em terapia cognitivo-comportamental e saúde mental no trabalho.",
+                tags: ["TCC", "Saúde Mental", "Terapia Online"]
+            },
+            {
+                id: 3,
+                name: "Ricardo Mendes",
+                specialty: "Consultor Financeiro",
+                rating: 4.9,
+                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                description: "Mais de 10 anos no mercado financeiro, especialista em investimentos e planejamento.",
+                tags: ["Investimentos", "Planejamento", "Mercado Financeiro"]
+            },
+            {
+                id: 4,
+                name: "Ana Beatriz Lima",
+                specialty: "Especialista em Marketing Digital",
+                rating: 4.7,
+                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                description: "Estratégias de crescimento para pequenas e médias empresas no ambiente digital.",
+                tags: ["SEO", "Mídias Sociais", "Branding"]
+            }
+        ];
+
+        // DOM Elements
+        const professionGrid = document.querySelector('.profession-grid');
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        const expertsGrid = document.querySelector('.experts-grid');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+        const consultationForm = document.getElementById('consultationForm');
+
+        // Inicializar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            // Carregar profissões
+            renderProfessions('all');
+            
+            // Carregar especialistas
+            renderExperts();
+            
+            // Configurar navegação suave
+            setupSmoothScroll();
+            
+            // Configurar menu mobile
+            setupMobileMenu();
+            
+            // Configurar formulário
+            setupForm();
+        });
+
+        // Renderizar profissões
+        function renderProfessions(category) {
+            professionGrid.innerHTML = '';
+            
+            const filteredProfessions = category === 'all' 
+                ? professions 
+                : professions.filter(prof => prof.category === category);
+            
+            filteredProfessions.forEach(prof => {
+                const profCard = document.createElement('div');
+                profCard.className = 'profession-card';
+                profCard.innerHTML = `
+                    <div class="profession-icon">
+                        <i class="${prof.icon}"></i>
+                    </div>
+                    <h3>${prof.title}</h3>
+                    <p>${prof.description}</p>
+                    <a href="#contact" class="btn btn-outline" style="font-size: 0.9rem; padding: 10px 20px;">Agendar Consulta</a>
+                `;
+                professionGrid.appendChild(profCard);
+            });
+        }
+
+        // Renderizar especialistas
+        function renderExperts() {
+            expertsGrid.innerHTML = '';
+            
+            experts.forEach(expert => {
+                const expertCard = document.createElement('div');
+                expertCard.className = 'expert-card';
+                expertCard.innerHTML = `
+                    <div class="expert-image">
+                        <img src="${expert.image}" alt="${expert.name}">
+                        <div class="expert-rating">
+                            <i class="fas fa-star"></i>
+                            <span>${expert.rating}</span>
+                        </div>
+                    </div>
+                    <div class="expert-info">
+                        <h3>${expert.name}</h3>
+                        <span class="expert-specialty">${expert.specialty}</span>
+                        <p class="expert-description">${expert.description}</p>
+                        <div class="expert-tags">
+                            ${expert.tags.map(tag => `<span class="expert-tag">${tag}</span>`).join('')}
+                        </div>
+                        <a href="#contact" class="btn" style="font-size: 0.9rem; padding: 10px 20px;">Agendar Consulta</a>
+                    </div>
+                `;
+                expertsGrid.appendChild(expertCard);
+            });
+        }
+
+        // Configurar navegação suave
+        function setupSmoothScroll() {
+            document.querySelectorAll('nav a, .hero-buttons a, .profession-card a, .expert-card a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if(targetId.startsWith('#')) {
+                        const targetElement = document.querySelector(targetId);
+                        if(targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 80,
+                                behavior: 'smooth'
+                            });
+                            
+                            // Fechar menu mobile se aberto
+                            if(mainNav.classList.contains('active')) {
+                                mainNav.classList.remove('active');
+                            }
+                        }
+                    }
+                });
+            });
+        }
+
+        // Configurar menu mobile
+        function setupMobileMenu() {
+            mobileMenuBtn.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+                mobileMenuBtn.innerHTML = mainNav.classList.contains('active') 
+                    ? '<i class="fas fa-times"></i>' 
+                    : '<i class="fas fa-bars"></i>';
+            });
+            
+            // Fechar menu ao clicar em um link
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mainNav.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                });
+            });
+        }
+
+        // Configurar filtros de categoria
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remover classe active de todos os botões
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                // Adicionar classe active ao botão clicado
+                btn.classList.add('active');
+                // Filtrar profissões
+                const category = btn.getAttribute('data-category');
+                renderProfessions(category);
+            });
+        });
+
+        // Configurar formulário
+        function setupForm() {
+            consultationForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                // Coletar dados do formulário
+                const formData = new FormData(consultationForm);
+                const data = Object.fromEntries(formData);
+                
+                // Aqui normalmente enviaríamos para um servidor
+                // Por enquanto, vamos apenas mostrar uma mensagem
+                alert(`Obrigado, ${data.name}! Sua solicitação de consulta com um especialista em ${data.profession} foi recebida. Entraremos em contato em até 24 horas.`);
+                
+                // Limpar formulário
+                consultationForm.reset();
+            });
+        }
+
+        // Adicionar efeito de scroll para header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if(window.scrollY > 100) {
+                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+                header.style.padding = '10px 0';
+            } else {
+                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.05)';
+                header.style.padding = '15px 0';
+            }
+        });
+    </script>
+</body>
+</html>
